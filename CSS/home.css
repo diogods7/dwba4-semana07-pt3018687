@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#menu{
+  list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+div{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+figure {
+    display: inline-block;
+    border: 0px dotted gray;
+}
+figure img {
+    vertical-align: top;
+}
+img {
+  width: 50%;
+}
+
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  column-gap: 1em;
+}
+.box{
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  line-height: 0px;
+}
